@@ -6,4 +6,4 @@ Note that the wrapper to apply functions on the bootstrapped samples does not wo
 
 Hence, the wrappers should be taken as a proof of concept, and that alone.
 
-Also, please note that document with roxygen causes some issues with .Call in the NSE package. Hence, the NAMESPACE and DESCRIPTION files were edited via hand.
+Also, please note that document with roxygen causes some issues with .Call in the NSE package. There may be some errors due to this.
