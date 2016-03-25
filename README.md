@@ -5,3 +5,5 @@ A modified version of the nse package ( https://r-forge.r-project.org/projects/n
 Note that the wrapper to apply functions on the bootstrapped samples does not work with most PerfA metrics as they are bugged when they encounter multiple samples with the same date tag , which bootstrapping often causes.
 
 Hence, the wrappers should be taken as a proof of concept, and that alone.
+
+Also, please note that document with roxygen causes some issues with .Call in the NSE package. Hence, the NAMESPACE and DESCRIPTION files were edited via hand.
